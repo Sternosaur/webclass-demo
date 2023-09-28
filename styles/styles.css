@@ -1,0 +1,14 @@
+/* styles.css */
+
+body {
+  text-align: center; /* Center all text horizontally */
+}
+
+h1 {
+  text-align: center; /* Center heading text horizontally */
+}
+
+img {
+  display: block; /* To center the image, set it to block-level element */
+  margin: 0 auto; /* Center the image horizontally using auto margins */
+}
