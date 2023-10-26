@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>
+            NPC Survey Interview
+        </title>
+		
+		<style>
+        body {
+            background-image: url("images/imthemapv2.png");
+            background-size: cover; /* Adjust as needed */
+            background-position: center center;
+            background-attachment: fixed; /* Fixed background, optional */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+    </style>
+		
+	</head>	
+	<body>
+	
+				<div style="text-align: center;">
+	
+	    <div style="display: flex;">
+  <a href="index.html">
+    <img src="images/mainsitetransparentbg.png" alt="mainsite" style="width: 50%;">
+  </a>
+  <a href="fansite.html">
+    <img src="images/fansite.png" alt="fansite" style="width: 50%;">
+  </a>
+  <a href="about-me.html">
+    <img src="images/aboutmetransparentbg.png" alt="aboutme" style="width: 50%;">
+  </a>
+  <a href="contact.html">
+    <img src="images/contactpagetransparentbg.png" alt="contactpage" style="width: 50%;">
+  </a>
+  <a href="favorites.html">
+    <img src="images/favoritestransparentbg.png" alt="favorites" style="width: 50%;">
+  </a>
+</div>
+	
+	
+        <form action="confirmation.html">
+            
+			<br><br>
+
+            <fieldset>
+                <legend>NPC Survey Interview</legend>
+                
+				<p>Why hello there, you must be here for the interview to be an NPC in one of my video games I'm making! Don't be shy, you're in the right place!</p>
+				
+				<br>
+				
+                <label for="first-name">1. What is your character's name?:</label>
+                <input type="text" id="first-name" name="first-name"/>
+                
+                <br>
+                <br>
+                <br>
+				
+				<label for="bio">
+                2. Describe your character's personality in a few sentences: <br>
+				<br>
+                <textarea name="bio" id="bio" cols="100" rows="10" maxlength="2000">Just a few sentences is fine, please don't do a bajillion... max is 2000 characters just in case.</textarea>
+                </label>
+
+                
+                <br>
+                <br><br>
+				
+				<label for="backstory">3. Provide a brief backstory for your character:</label>
+				<br><br>
+                <textarea id="backstory" name="backstory" cols="100" rows="2" required></textarea>
+                
+				<br><br><br><br>
+				
+                <label for="birth-date">4. When was your character born?:</label>
+                <input type="date" id="birth-date" name="birth-date"/>
+                
+                <br>
+                <br><br><br>
+                
+				
+				
+				<label for="special_skills">5. What's a special skill or ability your character has?</label>
+				<br><br>
+				<label>
+				<input type="radio" id="combat" name="special_skills" value="combat">
+				Combat Skills
+				</label>
+				<br>
+				<label>
+				<input type="radio" id="magic" name="special_skills" value="magic">
+				Magic Abilities
+				</label>
+				<br>
+				<label>
+				<input type="radio" id="stealth" name="special_skills" value="stealth">
+				Stealth and Infiltration
+				</label>
+				<br>
+				<label>
+				<input type="radio" id="other" name="special_skills" value="other">
+				Other
+				</label>
+
+				<br><br><br>
+				
+				<label for="catchphrase">6. Share your character's catchphrase or favorite quote:</label>
+                <input type="text" id="catchphrase" name="catchphrase" required>
+				
+				<br><br>
+				
+				<label for="quest"><br><br>7. What kind of quest or mission would your character offer to players?</label>
+				<br><br>
+                <textarea id="quest" name="quest" cols="100" rows="2" required></textarea>
+				
+				<br><br>
+				
+				<label for="voice"><br><br>8. How would your character's voice sound? (Check all that apply)</label><br><br>
+				<input type="checkbox" id="cute" name="voice" value="cute">
+				<label for="cute">Cute</label><br>
+				<input type="checkbox" id="loud" name="voice" value="loud">
+				<label for="loud">Loud</label><br>
+				<input type="checkbox" id="annoying" name="voice" value="annoying">
+				<label for="annoying">Annoying</label><br>
+				<input type="checkbox" id="high-spirited" name="voice" value="high-spirited">
+				<label for="high-spirited">High-spirited</label><br>
+				<input type="checkbox" id="feminine" name="voice" value="feminine">
+				<label for="feminine">Feminine</label><br>
+				<input type="checkbox" id="gruff" name="voice" value="gruff">
+				<label for="gruff">Gruff</label><br>
+				<input type="checkbox" id="robotic" name="voice" value="robotic">
+				<label for="robotic">Robotic</label><br><br>
+				
+				<label for="quirk"><br><br>9. Does your character have any quirky habits or behaviors?</label><br><br>
+                <textarea id="quirk" name="quirk" cols="100" rows="2" required></textarea>
+				
+				<br><br><br><br>
+                <label for="profile-photo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10. Finally, what does your character look like?:</label>
+                <input type="file" id="profile-photo" name="profile-photo">
+            <br><br>
+					
+
+
+			
+			</fieldset>
+			
+			<br><br> 
+            
+            <input type="submit" name="submit" value="Delete">
+            <input type="submit" name="submit" value="Sign Up">
+
+			
+			<br><br>
+			
+        </form>
+		
+		<a href="index.html">
+  <img src="images/mainsitetransparentbg.png" alt="mainsite" style="width: 25%;">
+</a>
+		            </div>
+	</body>
+</html>
