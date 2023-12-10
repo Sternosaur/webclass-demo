@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kirby</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      background-color: white; /* Set the background color to white */
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 20px;
+      background-color: rgba(255, 255, 255, 0.9); /* Set a slightly transparent white background */
+    }
+
+    .column {
+      flex: 0 0 45%; /* Adjust the width to 45% for two columns */
+      max-width: 45%; /* Adjust the max-width accordingly */
+      padding: 10px;
+      border: 1px solid #ddd;
+      margin: 5px;
+      text-align: center; /* Center the text */
+    }
+
+    /* Increase the margin for the top row */
+    .container > .column:nth-child(-n+2) {
+      margin-bottom: 30px;
+    }
+
+    /* Increase the margin for the bottom row */
+    .container > .column:nth-child(n+3) {
+      margin-top: 30px;
+    }
+  </style>
+  
+    <link rel="stylesheet" href="styles/arial.css">
+  
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="mario.html">Mario</a>
+    <a href="sonic.html">Sonic</a>
+    <a href="zelda.html">Zelda</a>
+    <a href="kirby.html">Kirby</a>
+    <a href="megaman.html">Megaman</a>
+  </div>
+  
+  <br><br><br><br>
+  
+<h1 style="text-align: center; font-size: 16px;">Kirby</h1>
+
+<br><br>
+
+  <div class="container">
+    <!-- First row -->
+    <div class="column">
+      <!-- Column 1 -->
+      <p>
+        <br><br><br>
+        <a href="index.html">
+          <img src="images/placeholder.png" alt="mainsite" style="width: 25%;">
+        </a>
+      </p>
+      <p style="font-size: 110%; font-weight: bold;">
+        <br>
+        Fan Comics
+      </p>
+      <!-- Line underneath with normal font size -->
+      <p>
+        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+      </p>
+    </div>
+    <div class="column">
+      <!-- Column 2 -->
+      <p>
+        <br><br><br>
+        <a href="index.html">
+          <img src="images/placeholder.png" alt="mainsite" style="width: 25%;">
+        </a>
+      </p>
+      <p style="font-size: 110%; font-weight: bold;">
+        <br>
+        Sprite Resources
+      </p>
+      <!-- Line underneath with normal font size -->
+      <p>
+        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+      </p>
+    </div>
+
+    <!-- Second row -->
+    <div class="column">
+      <!-- Column 1 -->
+      <p>
+        <br><br><br>
+        <a href="index.html">
+          <img src="images/placeholder.png" alt="mainsite" style="width: 25%;">
+        </a>
+      </p>
+      <p style="font-size: 110%; font-weight: bold;">
+        <br>
+        Fan Games
+      </p>
+      <!-- Line underneath with normal font size -->
+      <p>
+        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+      </p>
+    </div>
+    <div class="column">
+      <!-- Column 2 -->
+      <p>
+        <br><br><br>
+        <a href="index.html">
+          <img src="images/placeholder.png" alt="mainsite" style="width: 25%;">
+        </a>
+      </p>
+      <p style="font-size: 110%; font-weight: bold;">
+        <br>
+        Rom Hacks
+      </p>
+      <!-- Line underneath with normal font size -->
+      <p>
+        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
